@@ -81,7 +81,7 @@ public class MainApplication extends Application implements ReactApplication {
       MobileCore.start(new AdobeCallback () {
       @Override
       public void call(Object o) {
-          MobileCore.configureWithAppID("08c6c96e8270/ae870ca612ef/launch-65b29882fe2a-development");
+          MobileCore.configureWithAppID("08c6c96e8270/f0218405a6ef/launch-3d702baa0b8b-development");
           Log.d("Successful Registration","Call to App id is successful");
       }
 });
